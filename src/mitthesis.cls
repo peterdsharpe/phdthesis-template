@@ -29,8 +29,8 @@
 
 \RequirePackage[T1]{fontenc}
 \RequirePackage[utf8]{inputenc}
-%\RequirePackage{newpxtext} % UNCOMMENT THIS FOR PALATINO FONT!
-%\RequirePackage{newpxmath} % UNCOMMENT THIS FOR PALATINO FONT!
+\RequirePackage{newpxtext} % UNCOMMENT THIS FOR PALATINO FONT!
+\RequirePackage{newpxmath} % UNCOMMENT THIS FOR PALATINO FONT!
 %\useosf % old-style figures in text, not in math
 \newcommand{\lowercapsss}[1]{\textls[40]{\textsc{\MakeLowercase{#1}}}}
 \newcommand{\lowercaps}[1]{\textls[70]{\textsc{\MakeLowercase{#1}}}}
@@ -159,7 +159,6 @@
     \newlength\figurewidth
 \RequirePackage{tikz-3dplot}
 \RequirePackage{tkz-euclide}
-\usetkzobj{all}
 \tikzset{
   basic box/.style={
     shape=rectangle, rounded corners, align=center,
@@ -184,8 +183,8 @@
 %%
 %% Fonts (2)
 %%
-\RequirePackage[scale=1.09,textosf,mathlf,swash,roundv]{MinionPro} % COMMENT THIS FOR PALATINO
-\RequirePackage[scale=1.00]{MyriadPro} % COMMENT THIS FOR PALATINO
+% \RequirePackage[scale=1.09,textosf,mathlf,swash,roundv]{MinionPro} % COMMENT THIS FOR PALATINO
+% \RequirePackage[scale=1.00]{MyriadPro} % COMMENT THIS FOR PALATINO
 \linespread{1.11}
 \DeclareMathAlphabet{\mathfrak}{OMS}{cmsy}{m}{n}
 \SetMathAlphabet\mathfrak{bold}{OMS}{cmsy}{b}{n}
